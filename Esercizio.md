@@ -89,3 +89,43 @@ $words2 = [
 var_dump($words2);
 $results = $words2;
 var_dump($results);
+
+
+
+
+//Spiegazione
+
+<?php
+/*
+
+//Declaracion de variable
+
+$prova = "Patricia";
+$prova1 = 'patricia';
+$frase =  "$prova";
+$frase = '$prova';
+
+
+$frase1 = 'mi chiamo $prova';
+
+$frase2 = 'mi chiamo $prova1';
+$frase3 = "mi chiamo $prova";
+$frase4 = "mi chiamo $prova1";
+echo $frase1. "\n";
+echo $frase2. "\n";
+echo $frase3. "\n";
+echo $frase4. "\n";
+$names = ['luis', 'carlos', 'mauro'];
+print_r($names). "\n";
+var_dump($names). "\n";
+*/
+
+$persons = [
+    'name' => 'francesco',
+     'name' => 'Juan',
+      'name' => 'Pedro',
+];
+array_push($persons, 'hola');
+array_pop($persons);
+print_r($persons['name']);
+var_dump($persons);
